@@ -68,7 +68,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   zoneCollider: {fileID: 4137306944436846615}
-  zoneMeshRenderer: {fileID: 7440226610068796310}
 --- !u!1 &8224883410688012162
 GameObject:
   m_ObjectHideFlags: 0

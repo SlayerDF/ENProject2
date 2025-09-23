@@ -8,21 +8,17 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ShadowZone
-  m_Shader: {fileID: 4800000, guid: 650dd9526735d5b46b79224bc6e94025, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: e731641fe21568549a495fc66c163e2e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _SURFACE_TYPE_TRANSPARENT
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
-  stringTagMap:
-    RenderType: Transparent
-  disabledShaderPasses:
-  - DepthOnly
-  - SHADOWCASTER
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -67,10 +63,23 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _AlphaClip: 0
     - _AlphaToMask: 0
+    - _BackFaces: 0
     - _Blend: 0
     - _BlendOp: 0
     - _BlurSize: 5
@@ -78,32 +87,42 @@ Material:
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
+    - _DisplacementFXEnabled: 1
     - _DstBlend: 10
     - _DstBlendAlpha: 10
+    - _EdgeTransparency: 0
     - _Factor: 3.94
+    - _FrontFaces: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Metallic: 0
+    - _MirrorFX: 1
+    - _MirrorFXEnabled: 1
     - _Mode: 0
     - _NoiseScale: 14
     - _NoiseSpeed: 0.01
     - _NoiseStrength: 0.118
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _QueueControl: 0
     - _QueueOffset: 0
+    - _Rate: 0.2
     - _SampleGI: 0
+    - _Scale: 3.07
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 5
     - _SrcBlendAlpha: 1
     - _Surface: 1
+    - _TimeSpeed: 0
     - _UVSec: 0
     - _ZWrite: 0
     m_Colors:
     - _BaseColor: {r: 0.08750444, g: 0.09433961, b: 0.08579565, a: 0.6627451}
-    - _Color: {r: 0.08750441, g: 0.09433959, b: 0.08579562, a: 0.6627451}
+    - _Color: {r: 0.6114632, g: 0.7169812, b: 0.6114632, a: 0.69411767}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MaskColor: {r: 0.50615007, g: 0.6037736, b: 0.47504437, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &8995998504076510120
 MonoBehaviour:
